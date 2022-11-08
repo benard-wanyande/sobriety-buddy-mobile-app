@@ -6,13 +6,21 @@
     tools:context=".CalendarFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@color/purple_500"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Calendar Tab"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="40dp" />-->
+
+    <CalendarView
+        android:id="@+id/calendarView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Calendar Tab"
-        android:gravity="center"
-        android:textColor="@color/white"
         android:background="@color/purple_500"
-        android:textSize="40dp"/>
+        tools:ignore="ExtraText" />
 
 </FrameLayout>
