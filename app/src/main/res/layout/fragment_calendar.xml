@@ -1,26 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
     tools:context=".CalendarFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
 
-<!--    <TextView-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:background="@color/purple_500"-->
-<!--        android:gravity="center"-->
-<!--        android:text="Calendar Tab"-->
-<!--        android:textColor="@color/white"-->
-<!--        android:textSize="40dp" />-->
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500"
+            tools:ignore="ExtraText" />
 
-    <CalendarView
-        android:id="@+id/calendarView"
+    </androidx.cardview.widget.CardView>
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/purple_500"
-        tools:ignore="ExtraText" />
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Calendar type"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
 
-</FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#EDEDED" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="7dp"
+            android:background="@drawable/blue_circle" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Alcohol"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="7dp"
+            android:background="@drawable/tick" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#EDEDED" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="7dp"
+            android:background="@drawable/green_circle" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="All Addictions"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginVertical="7dp"
+            android:background="@drawable/tick" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#EDEDED" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_500"
+            android:text="Streaks"
+            android:textAllCaps="false"
+            android:textSize="16dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
