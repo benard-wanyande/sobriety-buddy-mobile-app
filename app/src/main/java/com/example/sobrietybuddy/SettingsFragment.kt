@@ -1,4 +1,4 @@
-package com.example.splashscreen
+package com.example.sobrietybuddy
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

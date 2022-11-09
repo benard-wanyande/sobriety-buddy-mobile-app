@@ -1,4 +1,4 @@
-package com.example.splashscreen;
+package com.example.sobrietybuddy;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

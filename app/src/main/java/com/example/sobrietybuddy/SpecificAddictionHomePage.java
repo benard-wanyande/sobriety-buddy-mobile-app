@@ -1,4 +1,4 @@
-package com.example.splashscreen;
+package com.example.sobrietybuddy;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentPagerAdapter;

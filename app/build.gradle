@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace 'com.example.splashscreen'
+    namespace 'com.example.sobrietybuddy'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.splashscreen"
+        applicationId "com.example.sobrietybuddy"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
