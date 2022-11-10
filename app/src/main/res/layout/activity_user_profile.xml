@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".UserProfileFragment">
+    tools:context="com.example.sobrietybuddy.UserProfileActivity"
+    android:background="@color/white">
 
 
     <Button
@@ -161,7 +161,5 @@
         app:layout_constraintTop_toBottomOf="@id/textView20"
         app:layout_constraintStart_toStartOf="@id/textView20"
         android:layout_marginTop="10dp"/>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegistrationFragment">
-
+    tools:context="com.example.sobrietybuddy.RegistrationActivity">
 
     <ImageView
         android:id="@+id/RegistrationImage"

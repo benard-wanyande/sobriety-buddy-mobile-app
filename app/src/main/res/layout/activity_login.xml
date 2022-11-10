@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginFragment">
+    tools:context="com.example.sobrietybuddy.LoginActivity">
 
     <ImageView
         android:contentDescription="Homepage Image"
@@ -153,6 +153,7 @@
         android:textColorHint="@color/grey"
         app:layout_constraintStart_toStartOf="@+id/PasswordText"
         app:layout_constraintTop_toBottomOf="@+id/PasswordText" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
