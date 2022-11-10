@@ -9,7 +9,7 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-
+    
     <string name="Welcome_1">First of all,\n congrats!\n </string>
     <string name="Welcome_2"> You have taken a big step\n On the path to sobriety  </string>
 
@@ -18,5 +18,4 @@
 
     <string name="Phone"><font size="15">+254</font></string>
     <string name="nameTag"><font size="16">Enter your first and last name</font></string>
-
 </resources>
