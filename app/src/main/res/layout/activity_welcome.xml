@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".WelcomeFragment">
+    tools:context="com.example.sobrietybuddy.WelcomeActivity">
 
     <ImageView
         android:id="@+id/WelcomePageImage"
@@ -67,6 +67,12 @@
         app:layout_constraintBottom_toTopOf="@+id/Welcome_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
