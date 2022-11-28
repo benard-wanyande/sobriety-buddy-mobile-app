@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -25,13 +25,13 @@
         android:id="@+id/textView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="66dp"
-        android:layout_marginBottom="520dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="504dp"
         android:text="When do you want to start tracking?"
         android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -39,9 +39,7 @@
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="69dp"
-        android:layout_marginEnd="69dp"
-        android:layout_marginBottom="467dp"
+        android:layout_marginBottom="485dp"
         android:background="@color/grey_2"
         android:ems="10"
         android:hint="mm/dd/yy"
@@ -49,8 +47,8 @@
         android:paddingLeft="10dp"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView25"
+        app:layout_constraintStart_toStartOf="@+id/textView25"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
     <Button
@@ -59,11 +57,11 @@
         android:layout_height="0dp"
         android:background="@drawable/round_button"
         android:text="Next"
+        android:onClick="gotoSpecific"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintBottomtoTopOf="@+id/editTextTextPersonName4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

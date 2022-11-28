@@ -16,6 +16,7 @@
         android:background="@color/purple_standard"
         android:drawableStart="@drawable/icons8_chevron_left_24"
         android:text="Account Details"
+        android:onClick="gotoSober"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
