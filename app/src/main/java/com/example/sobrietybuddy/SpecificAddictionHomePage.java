@@ -6,6 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
+
 import com.google.android.material.tabs.TabLayout;
 
 public class SpecificAddictionHomePage extends AppCompatActivity {
