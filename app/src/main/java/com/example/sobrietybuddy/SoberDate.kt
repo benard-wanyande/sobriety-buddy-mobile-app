@@ -2,11 +2,10 @@ package com.example.sobrietybuddy
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.splashscreen.R
 
-class LoginActivity : AppCompatActivity() {
+class SoberDate : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_soberdate)
     }
 }
