@@ -26,6 +26,7 @@
         android:drawableRight="@drawable/icons8_chevron_right_30"
         android:paddingRight="6dip"
         android:text="GET STARTED"
+        android:onClick="goToRegistrationPage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +65,7 @@
         android:background="@drawable/round_button"
         android:padding="6dp"
         android:text="Sign In"
+        android:onClick="goToLoginPage"
         app:layout_constraintBottom_toTopOf="@+id/Welcome_1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
